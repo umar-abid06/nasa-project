@@ -4,6 +4,9 @@
   "description": "Nasa Mission Control Systems Application",
   "main": "index.js",
   "scripts": {
+    "install-server": "nmp install --prefix server",
+    "install-client": "nmp install --prefix client",
+    "install": "npm run install-server && npm run install-client",
     "server": "npm run watch --prefix server",
     "client": "npm run start --prefix client",
     "watch": "npm run server & npm run client",
