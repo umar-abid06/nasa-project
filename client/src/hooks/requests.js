@@ -1,4 +1,4 @@
-const API_URL = "http://192.168.0.151:8000/v1";
+const API_URL = "v1";
 
 async function httpGetPlanets() {
   // TODO: Once API is ready.
